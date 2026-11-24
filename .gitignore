@@ -1,0 +1,25 @@
+# Dataset (SICAPv2 images and spreadsheets)
+SICAPv2/
+/images/
+*.xlsx
+
+# Model weights
+*.h5
+*.pt
+*.pth
+*.keras
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# Python and notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets and system files
+.env
+.DS_Store
+
+# Overleaf source archive
+*.zip
